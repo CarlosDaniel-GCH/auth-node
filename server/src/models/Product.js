@@ -15,7 +15,7 @@ const productSchema = new mongoose.Schema({
         type: String,
         required: [true, 'La descripcion es obligatoria']
     },
-    imagen: {
+    image: {
         type: String,
         default: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJf9R0M__InKs1-YwTG0D-2xDHFbaQmywMOg&s'
     },
