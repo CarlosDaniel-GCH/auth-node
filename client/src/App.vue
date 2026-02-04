@@ -1,11 +1,11 @@
-<script setup>
-</script>
-
 <template>
-  <div class="text-zinc-500">
-    JWT + MongoDB
+  <div id="app">
+    <router-view />
   </div>
 </template>
 
-<style scoped>
-</style>
+<script>
+export default {
+  name: 'App'
+}
+</script>
