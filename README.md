@@ -42,7 +42,7 @@ Este es un sistema de gestión de productos desarrollado con el stack **MEVN** (
 ### 1. Clonar el repositorio
 ```bash
 git clone https://github.com/CarlosDaniel-GCH/auth-node.git
-cd tu-proyecto
+cd auth-node
 ```
 
 ### 2. Configurar el Backend
@@ -65,7 +65,7 @@ node app.js
 
 ### 3. Configurar el Frontend
 ```bash
-cd ../cliente
+cd ../client
 npm install
 ```
 
